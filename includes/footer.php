@@ -1,6 +1,6 @@
 <footer id="mainfooter">
             <p>
-            Här kan vi fylla sidans sidfot om vi skulle vilja det.
+            Projektet är skapat av Filip, Jenniefer och Jonathan 2018
         </p>
         
     </footer>

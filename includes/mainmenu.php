@@ -6,6 +6,9 @@
 </head>
 <body>
 	<div id="mainmenu">
+		<p>
+    <img src="css/sundsvallskommun.jpg" class="imgg"/>
+</p>
 	<div class="topnav">
   <a class="active" href="index.php">Hem</a>
 

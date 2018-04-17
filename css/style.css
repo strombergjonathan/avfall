@@ -55,6 +55,14 @@ body {
   
 
 }
+.imgg{
+    background-position: middle;
+	width: 300px;
+    height: 10px;
+    padding: 50px;
+
+    
+    }
 
 .topnav {
   overflow: hidden;
