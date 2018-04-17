@@ -18,7 +18,7 @@ include("includes/mainmenu.php");
 
 
 ?>
-<p> hej på dig </p>
+<p> hej på dig! </p>
 
 
 
