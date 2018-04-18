@@ -7,9 +7,6 @@
 
 </head>
 <body>
-hejsansvejsans
-testttttmm
-
 <?php 
 include("includes/header.php");
 
