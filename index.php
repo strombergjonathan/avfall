@@ -2,7 +2,7 @@
 <html>
 <head>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-	<title>Avfallshantering i Sundsvall!!</title>
+	<title>Avfallshantering i Sundsvall!hej!</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
