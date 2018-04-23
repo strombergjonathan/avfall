@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Avfallshantering i Sundsvall!</title>
+	<title>Avfallshantering i Sundsvall!!</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
