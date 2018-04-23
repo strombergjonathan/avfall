@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Avfallshantering i Sundsvall!!</title>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<title>Avfallshantering i Sundsvall</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
 <body>
-
-hejsansvejsan
 <?php 
 include("includes/header.php");
 
@@ -46,23 +45,44 @@ include("includes/mainmenu.php");
 <h1>Plott av data</h1>
 
 
-   <p>
-    <img src="css/diagram.jpg" class="img"/>
-</p>
+<div id="myDiv"></div>
+
+<script>
+Plotly.d3.csv("https://mitt.sundsvall.se/api/waste/v1/waste.json/?dateFrom=2012-01-03&dateTo=2012-01-04&nyko=1&building=Verksamhetsavfall&building=Hyresfastighet&type=Matavfall&weightFrom=3&weightTo=13&pretty=true", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
 
 
-    <p>text om diagrammet</p>
-</article>
+var trace1 = {
+  type: "scatter",
+  mode: "lines",
+  x: "date",
+  y: "weight",
+  line: {color: '#17BECF'}
 
-	<!-- Plotly ritas här --></div>
-	
-	
-	
+}
 
+var data = [trace1];
 
-<h1> Information kring avfallshantering </h1>
+var layout = {
+  title: 'Sundsvalls avfall',
+  xaxis: {
+    range: ['2017-01-03', '2018-01-05'],
+    type: 'date'
+  },
+  yaxis: {
+    autorange: true,
+	range: [0, 2000],
+    type: 'linear'
+  }
+};
 
-<p> här kan vi mata in någon fin info </p>
+Plotly.newPlot('myDiv', data, layout);
+})
+</script>
+
 
 
 <?php
