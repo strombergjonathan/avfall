@@ -42,6 +42,7 @@ Ett exempel är förpackningar av aluminum. Genom att återvinna dessa istället
 
 include("includes/footer.php");
 
+
 ?>
 
 </body>
