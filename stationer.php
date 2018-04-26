@@ -4,7 +4,6 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Återvinningsstationer</title>
     <style>
 
       #map {
@@ -66,7 +65,12 @@
 		{lat: 62.3086771, lng: 17.375304099999994},
         {lat: 62.4398423, lng: 17.38845379999998},
 		{lat: 62.41875099999999, lng: 17.344162900000015},
-		{lat: 62.39455820000001, lng: 17.25011500000005}
+		{lat: 62.39455820000001, lng: 17.25011500000005},
+        {lat: 62.41522519999999, lng: 17.346285599999987},
+		{lat: 62.413617, lng: 17.36040909999997}
+		
+
+	
       ]
     </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">

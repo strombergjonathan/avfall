@@ -2,6 +2,7 @@
 <html>
   <head>
   <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Återvinningsstationer</title>
   </head>
 <?php 
 include("includes/header.php");
