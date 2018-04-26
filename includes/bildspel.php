@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 .mySlides {display:none;}
 </style>
 <body>
 
-<div class="w3-content w3-section" style="max-width:10000px">
-  <img class="mySlides" src="avfall.jpg" style="width:100%">
-  <img class="mySlides" src="sundsvallskommun.jpg" style="width:100%">
+<div class="slidesstyle" style="max-width:10000px">
   <img class="mySlides" src="avfall1.jpg" style="width:100%">
+  <img class="mySlides" src="sundsvallskommun.jpg" style="width:100%">
+  <img class="mySlides" src="avfall2.jpg" style="width:100%">
 </div>
 
 <script>
