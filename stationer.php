@@ -8,7 +8,7 @@
     <style>
 
       #map {
-	  height: 80%
+	  height: 100%
 	  }
       html, body {
         height: 100%;
