@@ -20,7 +20,7 @@ include("includes/mainmenu.php");
 	
 	<h1>Sopor är värdefulla!</h1>
 	
-	<p> 
+	<a> 
 
 Förpackningar av olika slag, hushållspapper, kartonger, den lästa tidningen, använda batterier, matavfall och tomflaskor. 
 
@@ -33,7 +33,8 @@ Ett exempel är förpackningar av aluminum. Genom att återvinna dessa istället
 
 
 
-   <p>
+   </a>
+<p>
     <img src="css/atervinning.jpg" class="img"/>
 </p>
 
