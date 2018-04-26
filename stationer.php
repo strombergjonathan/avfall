@@ -4,7 +4,6 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Återvinningsstationer</title>
     <style>
 
@@ -30,10 +29,8 @@
     </style>
   </head>
   <body>
-  <p>
-   <iframe width="100%" height="500" src="googlekarta.php"
-    frameborder="0" allowfullscreen></iframe>
-    </p>
+  
+
 
   <h2>Återvinningsstationer </h2>
     <div id="map"></div>
