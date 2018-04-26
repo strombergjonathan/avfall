@@ -3,7 +3,7 @@
 <head>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
 
-	<title>Avfallshantering i Sundsvall!hej!hejigen!!</title>
+	<title>Avfallshantering i Sundsvall</title>
   <meta charset="utf-8"/>
   
   <link rel="stylesheet" href="css/style.css" type="text/css">
