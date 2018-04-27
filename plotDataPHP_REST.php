@@ -34,7 +34,7 @@
 	
 	// Ett PHP-objekt, med JSON-kodat data anpassat för Plotly.
 	$data = [ [
-		"x" => $namnArr,
+		"x" => $namnArr, 
 		"y" => $befArr,
 		"type" => "bar"  
 	] ];

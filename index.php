@@ -31,6 +31,8 @@
 
 <body onload="loadDoc()">
 
+
+
 <?php 
 include("includes/header.php");
 
@@ -49,17 +51,15 @@ include("includes/mainmenu.php");
 
 
 
-</div>
 
-
-</div>
 
 <h1>Ta en kaffe så kommer datat visas här snart!</h1>
-<p></p>
+
 
 <div id="graf" style="width: 1200px; height: 400px;"><!-- Plotly ritas här --></div>
 
 
+<p> Område 1  Område 2  Område 3  område 4 Område 5 Område 6</p> 
 
 <?php
 Include("includes/footer.php")

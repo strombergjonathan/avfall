@@ -103,11 +103,12 @@ h1 {
 }
 
 p{
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     letter-spacing: 1px;
     font-weight: normal;
     margin-bottom: 1em;
+    margin-right: 20%;
     text-align: center;
 }
 
@@ -116,11 +117,15 @@ a{
     color: black;
     letter-spacing: 1px;
     font-weight: normal;
-    
-   
-   
-    
-}
+    }
+
+
+
+ 
+        
+
+
+
 .img{
 width: 350px;
 
