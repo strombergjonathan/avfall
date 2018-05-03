@@ -37,6 +37,13 @@ Ett exempel är förpackningar av aluminum. Genom att återvinna dessa istället
 <p>
     <img src="css/atervinning.jpg" class="img"/>
 </p>
+<p>
+   <iframe width="100%" height="400" src="http://www.sopor.nu/bli-en-miljoenaer/slaeng-lite-mindre/minska-matavfallet/" frameborder="0" allowfullscreen></iframe>
+
+
+
+      
+    </p>
 
 <?php
 
