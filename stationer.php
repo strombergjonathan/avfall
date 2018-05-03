@@ -3,6 +3,7 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <meta charset="utf-8">
     <style>
 
@@ -31,7 +32,8 @@
   
 
 
-  <h2>Återvinningsstationer </h2>
+  <h2>I kartan nedan visar vi de stora återvinningsstationerna i Sundsvallstrakten. </h2>
+  
     <div id="map"></div>
     <script>
 
@@ -66,8 +68,8 @@
         {lat: 62.4398423, lng: 17.38845379999998},
 		{lat: 62.41875099999999, lng: 17.344162900000015},
 		{lat: 62.39455820000001, lng: 17.25011500000005},
-        {lat: 62.41522519999999, lng: 17.346285599999987},
-		{lat: 62.413617, lng: 17.36040909999997}
+        {lat: 62.37767439999999, lng: 17.346285599999987},
+		{lat: 62.413617, lng: 17.165619600000014}
 		
 
 	
@@ -78,5 +80,8 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlPHpelqZ4zFYixbA9EtXR9FJXVzwA-ag&callback=initMap">
     </script>
+
+
+    
   </body>
 </html>

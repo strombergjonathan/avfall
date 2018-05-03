@@ -61,8 +61,21 @@ include("includes/mainmenu.php");
 
 <div id="sidebar" class="sidebar">
 
-<h3>Områdesbeskrivning till tabellen</h3>
+<h3>Diagrambeskrivning</h3>
+
+
+
+	<h4>Y-axeln: </h4>
+	<p1>
+
+		Totala mängden matavfall i ton per område från och med den första januari 2018 och framåt.
+
+
+		</p1>
+
+
 <p1>
+	<h4>X-axeln: </h4> 
 	11 = Granlo/Bergsåker <br/>
 	12 = Birsta/Ljustadalen <br/>
 	13 = Haga/Bosvedjan/Skönsberg <br/> 

@@ -1,6 +1,6 @@
 <footer id="mainfooter">
-            <p>
+            <h3>
             Projektet är skapat av Filip, Jenniefer och Jonathan 2018
-        </p>
+</h3>
         
     </footer>
