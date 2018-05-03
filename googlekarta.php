@@ -20,9 +20,10 @@ include("includes/mainmenu.php");
     <div id="sidebar" class="sidebar">
 
 
-<h4>Punktbeskrivning </h4> 
+
 
 <p1>
+<h4>Punktbeskrivning </h4> 
 	 
 	A = Mittsverigevatten och avfall <br/>
 	B = Svartviks Återvinningscentral <br/>

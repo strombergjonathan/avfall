@@ -31,6 +31,7 @@ Varje dag producerar Sverige en massa skräp. I Sverige drygt 500 kg per person 
 Vad tjänar vi då på att återvinna?? 
 
 Jo, Den viktigaste effekten av sortering är att vi minskar på produktionen av nytt material. Då sparar vi energi och andra naturresurser och minskar också utsläppen av föroreningar i luft och vatten.
+<<<<<<< HEAD
 Ett exempel är förpackningar av aluminum. Genom att återvinna dessa istället för att producera nytt så sparar vi ca 95% energi.  </br>
 </br>
 På avfallsportalen sopor.nu finns information om hur man sorterar sitt avfall, varför det bör sorteras, var avfallet ska lämnas och vad som händer sedan.
@@ -48,6 +49,10 @@ Naturvårdsverket, och Recipo. Nedan kan du spana in deras webbsida.
 </div>
 
 <div id= "sopor" class="sopor">
+=======
+Ett exempel är förpackningar av aluminum. Genom att återvinna dessa istället för att producera nytt så sparar vi ca 95% energi.  </p>
+  
+>>>>>>> b802952cfe4366b4b70b768e39e5ad18f71a1f52
 
 
 <p>
