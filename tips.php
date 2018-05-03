@@ -30,7 +30,7 @@ Vad tjänar vi då på att återvinna??
 
 Jo, Den viktigaste effekten av sortering är att vi minskar på produktionen av nytt material. Då sparar vi energi och andra naturresurser och minskar också utsläppen av föroreningar i luft och vatten.
 Ett exempel är förpackningar av aluminum. Genom att återvinna dessa istället för att producera nytt så sparar vi ca 95% energi.  </p>
-
+  
 
 
    </a>
