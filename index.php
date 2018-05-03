@@ -59,7 +59,20 @@ include("includes/mainmenu.php");
 <div id="graf" style="width: 1200px; height: 400px;"><!-- Plotly ritas här --></div>
 
 
-<p> Område 1  Område 2  Område 3  område 4 Område 5 Område 6</p> 
+<div id="sidebar" class="sidebar">
+
+<h3>Områdesbeskrivning till tabellen</h3>
+<p1>
+	11 = Granlo/Bergsåker <br/>
+	12 = Birsta/Ljustadalen <br/>
+	13 = Haga/Bosvedjan/Skönsberg <br/> 
+	14 = Skönsmon <br/> 
+	15 = Nacksta/Södermalm<br/> 
+	16 = City<br/> 
+
+
+	</p1>
+	</div>
 
 <?php
 Include("includes/footer.php")
