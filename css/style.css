@@ -66,6 +66,7 @@ body {
     }
 
 .topnav {
+  width: 100%;
   overflow: hidden;
   background-color: grey;
   border-radius: 5px;
@@ -74,6 +75,7 @@ body {
 }
 
 .topnav a {
+   
   float: left;
   color: black;
   text-align: center;
@@ -85,6 +87,9 @@ body {
 }
 
 .topnav a:hover {
+
+   
+  width:auto;
   background-color: #ddd;
   color: black;
   text-align: center;
