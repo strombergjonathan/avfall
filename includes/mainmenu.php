@@ -5,7 +5,7 @@
 
 	</div>
 
-	<div class="topnav">
+	<div id="topnav" class="topnav">
   <a class="active" href="index.php" >Hem</a>
 
   <a href="googlekarta.php"> Återvinningsstationer</a>
