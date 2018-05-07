@@ -1,10 +1,11 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="sv">
   <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="view" content="initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <meta charset="utf-8">
+    <title>Stationer</title>
     <style>
 
       #map {
@@ -13,7 +14,7 @@
       html, body {
         height: 100%;
         margin: 0;
-        padding: 10;
+        padding: 10px;
       }
 	   #infowindow-content .title {
         font-weight: bold;
