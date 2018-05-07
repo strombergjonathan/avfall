@@ -58,34 +58,36 @@ include("includes/mainmenu.php");
 <h1>Ta en kaffe så kommer datat visas här snart!</h1>
 
 
-<div id="graf" style="width: 1200px; height: 400px;"><!-- Plotly ritas här --></div>
+<div id="graf" style="width: 1200px; height: 400px;"></div>
 
 
 <div id="sidebar" class="sidebar">
+
+
 
 <h3>Diagrambeskrivning</h3>
 
 
 <h4>Y-axeln: </h4>
 	
-	<p1>
+
 
 		Totala mängden matavfall i ton per område från och med den första januari 2018 och framåt.
 
-</p1>
+
 
 
 
 	<h4>X-axeln: </h4> 
-
-	<p1>
+	
+	
 	11 = Granlo/Bergsåker <br/>
 	12 = Birsta/Ljustadalen <br/>
 	13 = Haga/Bosvedjan/Skönsberg <br/> 
 	14 = Skönsmon <br/> 
 	15 = Nacksta/Södermalm<br/> 
-	16 = City 
-	</p1>
+	16 = City <br/> 
+	
 	
 	</div>
 

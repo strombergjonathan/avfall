@@ -1,7 +1,9 @@
-<body>
+
 	<div id="mainmenu">
 		<iframe width="1400" height="500" src="includes/bildspel.php"
-    frameborder="0" allowfullscreen></iframe>
+     allowfullscreen></iframe>
+
+	</div>
 
 	<div class="topnav">
   <a class="active" href="index.php" >Hem</a>
@@ -11,7 +13,6 @@
   
 </div>
 
-</body>
 
 
 
