@@ -1,6 +1,6 @@
 
 	<div id="mainmenu">
-		<iframe width="1400" height="500" src="includes/bildspel.php"
+		<iframe id="iframe" src="includes/bildspel.php"
      allowfullscreen></iframe>
 
 	</div>

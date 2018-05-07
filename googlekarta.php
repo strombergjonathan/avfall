@@ -12,7 +12,7 @@ include("includes/mainmenu.php");
 
 ?>
 
- <iframe width="1400" height="800" src="stationer.php"
+ <iframe id ="iframe1"  src="stationer.php"
    allowfullscreen></iframe>
     
     
