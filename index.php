@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="sv">
+
 <head>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
 
@@ -64,27 +66,27 @@ include("includes/mainmenu.php");
 <h3>Diagrambeskrivning</h3>
 
 
-
-	<h4>Y-axeln: </h4>
+<h4>Y-axeln: </h4>
+	
 	<p1>
 
 		Totala mängden matavfall i ton per område från och med den första januari 2018 och framåt.
 
+</p1>
 
-		</p1>
 
 
-<p1>
 	<h4>X-axeln: </h4> 
+
+	<p1>
 	11 = Granlo/Bergsåker <br/>
 	12 = Birsta/Ljustadalen <br/>
 	13 = Haga/Bosvedjan/Skönsberg <br/> 
 	14 = Skönsmon <br/> 
 	15 = Nacksta/Södermalm<br/> 
-	16 = City<br/> 
-
-
+	16 = City 
 	</p1>
+	
 	</div>
 
 <?php

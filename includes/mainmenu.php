@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" href="../css/style.css" type="text/css">
-</head>
 <body>
 	<div id="mainmenu">
-		<iframe width="100%" height="500" src="includes/bildspel.php"
+		<iframe width="1400" height="500" src="includes/bildspel.php"
     frameborder="0" allowfullscreen></iframe>
 
 	<div class="topnav">
@@ -18,7 +12,7 @@
 </div>
 
 </body>
-</html>
+
 
 
 
