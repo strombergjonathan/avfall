@@ -25,7 +25,7 @@ include("includes/mainmenu.php");
 
 <h4>Punktbeskrivning </h4> 
 
-<p>
+
 	 
 	A = Mittsverigevatten och avfall <br/>
 	B = Svartviks Återvinningscentral <br/>
@@ -36,7 +36,7 @@ include("includes/mainmenu.php");
     G = Kabelretur Snab AB  <br/> 
 
 
-	</p>
+	
 	</div>
     <?php 
 include("includes/footer.php");
