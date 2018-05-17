@@ -1,3 +1,12 @@
+<!--
+Denna sida innehåller en beskrivande text om avfallshantering. 
+Vi har också länkat till en annan webbplats som visas på vår sida där användaren kan läsa ytterligare om sophantering.
+-->
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="sv">
 <head>

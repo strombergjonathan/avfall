@@ -37,21 +37,21 @@
   
     <div id="map"></div>
     <script>
-
+// Skapar en funktion med namnet initMap.
       function initMap() {
-
+//Skapar en karta 
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 9,
           center: {lat: 62.390811, lng: 17.306926999999973}
         });
-
-        // Create an array of alphabetical characters used to label the markers.
+        // Skapar en array med alfabetets bokstäver som använd för att märke de olika punkterna.
+        
         var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-        // Add some markers to the map.
-        // Note: The code uses the JavaScript Array.prototype.map() method to
-        // create an array of markers based on a given "locations" array.
-        // The map() method here has nothing to do with the Google Maps API.
+        // Lägger till punkter i kartan.
+        // Skapar en array baserad på våra punkter(återviningsstationer)
+        // map() metoden har inget att göra med google maps API.
+        
+        
         var markers = locations.map(function(location, i) {
           return new google.maps.Marker({
             position: location,
@@ -59,7 +59,8 @@
           });
         });
 
-        // Add a marker clusterer to manage the markers.
+       
+        // Skapar ett Cluster för punkterna på kartan. 
         var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
       }

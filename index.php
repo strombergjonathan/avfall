@@ -2,6 +2,7 @@
 
 <html lang="sv">
 
+
 <head>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
 
@@ -9,29 +10,39 @@
   <meta charset="utf-8"/>
   
   <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <!-- 
+	Script som läser data från webservern och visar data på vår webbplats. 
+	Scriptet börjar köras direkt när sidan laddas.
+
+-->
   
 	<script>
-		function loadDoc() {
-			var xhttp = new XMLHttpRequest();
+		function loadDoc() {  // Skapar funktion med namnet loadDoc
+			var xhttp = new XMLHttpRequest(); // skapar ett objekt av typen XMLHttpRequest med namnet xhttp. 
+			//Detta gör att vi kan hämta data från webbservern utan att behöva ladda om sidan.
 		
 			xhttp.onreadystatechange = function()
 			{
-				if (this.readyState == 4 && this.status == 200)
+
+				// Kollar att begäran är klar och att status är OK!
+
+				if (this.readyState == 4 && this.status == 200) 
 				{
-					var data = JSON.parse(this.responseText);
-					Plotly.newPlot('graf', data );
+					var data = JSON.parse(this.responseText); // Gör om text till ett javascript objekt.
+					Plotly.newPlot('graf', data ); // Ritar diagrammet med hjälp av plotly.
 				}
 			};
 		
 			xhttp.open("GET", "plotDataPHP_REST.php", true);
-			//xhttp.open("POST", "plotDataPHP_REST.php", true);
+			
 			xhttp.send();
 		}
 	
   </script>
 </head>
 
-<body onload="loadDoc()">
+<body onload="loadDoc()"> <!-- Kör funktionen direkt när sidan laddas -->
 
 
 
